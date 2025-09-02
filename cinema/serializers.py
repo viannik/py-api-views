@@ -117,5 +117,4 @@ class MovieSerializer(serializers.Serializer):
         if genres is not None:
             instance.genres.set(genres)
 
-
         return instance
